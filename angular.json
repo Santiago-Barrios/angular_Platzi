@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Platzi-Store"
+    }
+  },
+  "defaultProject": "Platzi-Store",
+  "cli": {
+    "analytics": "05d7dfa4-d161-4e04-bf31-ee6f7bc571a3"
+  }
 }
