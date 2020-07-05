@@ -11,6 +11,8 @@ export class AppComponent {
 
   items = ['Nicolas', 'Santiago', 'David'];
 
+  power = 10;
+
   objeto = {}; // objeto no son iterables solo arrays
 
   products: Product[]  = [
