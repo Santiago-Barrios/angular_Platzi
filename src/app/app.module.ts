@@ -8,6 +8,10 @@ import { ProductComponent } from './components/product.component';
 import { CartComponent } from './cart/cart.component';
 import { ExponencialPipe } from './Pipes/exponencial.pipe';
 import { HighlightDirective } from './Directiva/highlight.directive';
+import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
+import { ContactComponent } from './contact/contact.component';
+import { DemoComponent } from './demo/demo.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +19,11 @@ import { HighlightDirective } from './Directiva/highlight.directive';
     ProductComponent,
     CartComponent,
     ExponencialPipe,
-    HighlightDirective
+    HighlightDirective,
+    HomeComponent,
+    ProductsComponent,
+    ContactComponent,
+    DemoComponent
   ],
   imports: [
     BrowserModule,
