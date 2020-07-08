@@ -9,6 +9,8 @@ import { ProductDetailComponent } from './product-detail/product-detail.componen
 import { LayoutComponent } from './layout/layout.component';
 
 
+import { AdminGuard } from './Guards/admin.guard';
+
 
 const routes: Routes = [
   {
@@ -34,6 +36,7 @@ const routes: Routes = [
       },
       {
         path: 'contact',
+        canActivate: [AdminGuard],
         component: ContactComponent,
       }
     ]
