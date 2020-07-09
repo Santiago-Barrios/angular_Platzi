@@ -7,6 +7,8 @@ import { HighlightDirective } from './Directives/highlight/highlight.directive';
 import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 
+import { MaterialModule } from '../material/material.module';
+
 
 
 @NgModule({
@@ -25,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
   ],
   imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    MaterialModule
   ]
 })
 export class SharedModule { }
