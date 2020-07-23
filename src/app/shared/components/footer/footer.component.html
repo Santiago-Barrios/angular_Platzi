@@ -39,7 +39,7 @@
                         <!-- {{ emailField.valid }}, {{ emailField.invalid }} -->
                     </mat-form-field>
                     <button mat-raised-button [disabled]="emailField.invalid" (click)="sendEmail()">enviar</button>
-                    <p *ngIf="emailField.invalid">El campo no es valido</p>
+                    <p *ngIf="emailField.invalid && emailField.dirty">El campo no es valido</p>
                 </div>
             </div>
         </div>
